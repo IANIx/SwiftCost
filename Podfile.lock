@@ -1,0 +1,75 @@
+PODS:
+  - Alamofire (5.4.1)
+  - fishhook (0.2)
+  - GRDB.swift (5.7.4):
+    - GRDB.swift/standard (= 5.7.4)
+  - GRDB.swift/standard (5.7.4)
+  - JTAppleCalendar (8.0.3)
+  - Kingfisher (6.0.1)
+  - LookinServer (1.0.0)
+  - ObjectMapper (4.2.0)
+  - pop (1.0.12)
+  - Realm (10.7.5):
+    - Realm/Headers (= 10.7.5)
+  - Realm/Headers (10.7.5)
+  - RealmSwift (10.7.5):
+    - Realm (= 10.7.5)
+  - SDMagicHook (1.2.5):
+    - fishhook
+    - SDMagicHook/SDMagicHookMRCTool (= 1.2.5)
+    - SDMagicHook/SDMagicHookUtils (= 1.2.5)
+  - SDMagicHook/SDMagicHookMRCTool (1.2.5):
+    - fishhook
+    - SDMagicHook/SDMagicHookUtils
+  - SDMagicHook/SDMagicHookUtils (1.2.5):
+    - fishhook
+  - SnapKit (5.0.1)
+  - SwiftyJSON (4.3.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - GRDB.swift (~> 5.7.4)
+  - JTAppleCalendar (~> 8.0.3)
+  - Kingfisher
+  - LookinServer
+  - ObjectMapper
+  - pop
+  - RealmSwift
+  - SDMagicHook (~> 1.2.5)
+  - SnapKit
+  - SwiftyJSON (~> 4.0)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - fishhook
+    - GRDB.swift
+    - JTAppleCalendar
+    - Kingfisher
+    - LookinServer
+    - ObjectMapper
+    - pop
+    - Realm
+    - RealmSwift
+    - SDMagicHook
+    - SnapKit
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: 2291f7d21ca607c491dd17642e5d40fdcda0e65c
+  fishhook: ea19933abfe8f2f52c55fd8b6e2718467d3ebc89
+  GRDB.swift: 2064e726141f130d0b8bd819b29086f2b1157597
+  JTAppleCalendar: 932cadea40b1051beab10f67843451d48ba16c99
+  Kingfisher: adde87a4f74f6a3845395769354efff593581740
+  LookinServer: 0002891cd3cec5e082a910e897dfe71b4f06b89e
+  ObjectMapper: 1eb41f610210777375fa806bf161dc39fb832b81
+  pop: d582054913807fd11fd50bfe6a539d91c7e1a55a
+  Realm: 06f5c67f87cb8c5f27b122218ce22e9a77314517
+  RealmSwift: b46535b52e69b9ed33912f0fcb3182ab0a5743ee
+  SDMagicHook: 30913b726d88060a6bb1c2b90d959116fdd4bb62
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+  SwiftyJSON: 6faa0040f8b59dead0ee07436cbf76b73c08fd08
+
+PODFILE CHECKSUM: 1ebc8fc2f9285722515e580c6cd4316dd95ecf01
+
+COCOAPODS: 1.10.1
