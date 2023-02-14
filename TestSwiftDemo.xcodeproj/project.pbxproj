@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		05B5EDB5299B655800635251 /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05B5EDB4299B655800635251 /* UIImage+Extension.swift */; };
 		6F0D5DEE25C2B6EB00CE852E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F0D5DED25C2B6EB00CE852E /* AppDelegate.swift */; };
 		6F0D5DF025C2B6EB00CE852E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F0D5DEF25C2B6EB00CE852E /* SceneDelegate.swift */; };
 		6F0D5DF225C2B6EB00CE852E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F0D5DF125C2B6EB00CE852E /* ViewController.swift */; };
@@ -71,6 +72,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		05B5EDB4299B655800635251 /* UIImage+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
 		6F0D5DEA25C2B6EB00CE852E /* TestSwiftDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestSwiftDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F0D5DED25C2B6EB00CE852E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6F0D5DEF25C2B6EB00CE852E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -400,6 +402,7 @@
 		C74EBE91264BA7C300682E17 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				05B5EDB4299B655800635251 /* UIImage+Extension.swift */,
 				C7B282F52679927500B12FD3 /* UIViewController+Extension.swift */,
 				C7B2819E2667224B00B12FD3 /* NSObject+Extension.swift */,
 				C74EBE92264BA82E00682E17 /* UIColor+Extension.swift */,
@@ -663,6 +666,7 @@
 				C7012FBD2664DAD800108543 /* TDatePicker.swift in Sources */,
 				C74EBE2026490C0200682E17 /* TCreateViewController.swift in Sources */,
 				C7FCB01D265B7D7C0081B9DD /* TCalendarEnums.swift in Sources */,
+				05B5EDB5299B655800635251 /* UIImage+Extension.swift in Sources */,
 				C74EBE1C2649089A00682E17 /* TUtils.swift in Sources */,
 				C74EBE1B2649089A00682E17 /* TNavigationController.swift in Sources */,
 			);

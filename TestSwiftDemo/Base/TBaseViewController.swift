@@ -15,7 +15,7 @@ class TBaseViewController: UIViewController {
         super.viewDidLoad()
 
         view.backgroundColor = UIColor.white
-        setupNav()
+//        setupNav()
         setupSubviews()
         setupData()
     }
@@ -30,6 +30,7 @@ class TBaseViewController: UIViewController {
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         print("\(self) viewWillAppear")
+        setupNav()
     }
     
     override func viewDidDisappear(_ animated: Bool) {
@@ -50,6 +51,12 @@ class TBaseViewController: UIViewController {
         navigationController?.navigationBar.isTranslucent = false
         navigationController?.navigationBar.barTintColor = mainColor
         navigationController?.navigationBar.shadowImage = UIImage()
+        navigationController?.navigationBar.backgroundColor = UIColor.red
+        navigationController?.navigationBar.subviews.forEach({ view in
+            if view.className == "_UIBarBackground" {
+                view.backgroundColor = mainColor
+            }
+        })
     }
     
     func setupBackItem() {
